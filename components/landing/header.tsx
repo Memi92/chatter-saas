@@ -16,7 +16,7 @@ import { createClient } from "@/lib/supabase/server"
 const navItems = [
   { href: "#features", label: "Features" },
   { href: "#pricing", label: "Pricing" },
-  { href: "#contact", label: "Contact" },
+  { href: "/contact", label: "Contact" },
 ]
 
 export async function Header() {

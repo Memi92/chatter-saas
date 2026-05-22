@@ -26,7 +26,7 @@ export function Hero() {
             Customer messaging for focused teams
           </p>
           <h1 className="max-w-2xl text-4xl font-semibold leading-tight tracking-normal text-foreground text-balance sm:text-5xl lg:text-6xl">
-            Halle Gaëlle, wanneer komt de baby
+            Hallo Gaëlle, wanneer komt de baby
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">
             Chatter brings shared inboxes, workflow automation, and customer

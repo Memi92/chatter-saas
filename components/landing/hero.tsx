@@ -13,7 +13,7 @@ export function Hero() {
             Customer messaging for focused teams
           </p>
           <h1 className="text-4xl font-semibold leading-tight tracking-normal text-foreground sm:text-5xl lg:text-6xl">
-            Turn every customer conversation into momentum.
+            Hallo Gaëlle, wanneer komt de baby?
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-muted-foreground">
             Chatter brings shared inboxes, workflow automation, and customer

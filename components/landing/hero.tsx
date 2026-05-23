@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Sparkles } from "lucide-react"
 
+import { BabyGuessingGameDialog } from "@/components/landing/baby-guessing-game-dialog"
 import { Button } from "@/components/ui/button"
 
 export function Hero() {
@@ -32,7 +33,8 @@ export function Hero() {
             Chatter brings shared inboxes, workflow automation, and customer
             context into one fast workspace for growing SaaS teams.
           </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <BabyGuessingGameDialog />
             <Button asChild size="lg" className="h-11 px-4">
               <Link href="/signup">
                 Start free
